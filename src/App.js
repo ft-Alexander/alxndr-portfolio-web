@@ -10,11 +10,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/technologies" element={<Technologies />} />
+        <Route path="/alxndr-portfolio-web/" element={<Home />} />
+        <Route path="/alxndr-portfolio-web/about" element={<About />} />
+        <Route path="/alxndr-portfolio-web/contact" element={<Contact />} />
+        <Route path="/alxndr-portfolio-web/projects" element={<Projects />} />
+        <Route path="/alxndr-portfolio-web/technologies" element={<Technologies />} />
       </Routes>
     </Router>
   );
